@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To Do - New note</title>
+    <script src="newNote.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="./index.html"><button class="button">< back</button></a>
+        <h1 class="Note">New note</h1>
+    </nav>
+    <header>
+
+        <section class="task">
+
+            <p class="textOfTask">Name</p>
+            <input type="text" class="Input" id="Input"> 
+
+        </section>
+        <section class="task">
+
+            <p class="textOfTask">Priority</p>
+            <input type="radio" name="rb" id="rb1" >
+            <input type="radio" name="rb" id="rb2" >
+            <input type="radio" name="rb" id="rb3" >
+
+        </section>
+        <section class="task">
+
+            <p class="textOfTask">Energy costs</p>
+            <div class="difficultyLevel" id = "im">
+                <img src="./img/whiteFlash.png" class="img" id="f1" alt="" onclick="aaa()">
+                <img src="./img/whiteFlash.png" class="img" id="f2" alt="" onclick="aaa1()">
+                <img src="./img/whiteFlash.png" class="img" id="f3" alt="" onclick="aaa2()">
+            </div>
+
+        </section>
+
+    </header>
+    <footer>
+        <a href="./index.html"><button class="button" id="addButton">Add</button></a>
+    </footer>
+</body>
+</html>
