@@ -7,7 +7,7 @@
     <title>To Do - List note</title>
     <script src="index.js" defer></script>
   </head>
-  <body>
+  <body onload="getItems()">
     <nav class>
 
       <h1 class = "Note">Note</h1>
@@ -24,21 +24,7 @@
 
       <h1 class="Backlogs">BACKLOGS</h1>
 
-      <ul class="tasks" id="tasks" onload="getItems()">
-
-        <li class="task">
-
-          <p class="textOfTask type2" class="type2">Homework</p>
-
-          <div class="difficultyLevel">
-
-            <img src="./img/blueFlash.png" class="img" alt="">
-            <img src="./img/blueFlash.png" class="img" alt="">
-            <img src="./img/whiteFlash.png" class="img" alt="">
-
-          </div>
-
-        </li>
+      <ul class="tasks" id="tasks">
 
       </ul>
 
